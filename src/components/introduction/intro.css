@@ -1,0 +1,71 @@
+.container_intro {
+  box-sizing: border-box;
+  /* border: 5px solid rgb(248, 11, 11); */
+  background-color: #105652;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 3rem 0rem;
+}
+
+.intro {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.head_txt {
+  color: #fca738;
+  font-size: 3rem;
+}
+
+.dev_txt {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  font: normal normal bold 40px/44px Inter;
+}
+.sub {
+  margin-top: 3rem;
+}
+.txt {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  margin-top: 2rem;
+  height: 3rem;
+  color: white;
+  font-weight: 600;
+  width: 10rem;
+  border-radius: 0.8rem;
+  margin-right: 5rem;
+  font: normal normal bold 16px/19px Inter;
+}
+
+.btn1 {
+  background: #09bead 0% 0% no-repeat padding-box;
+  box-shadow: 0px 16px 29px #0bbead69;
+  border-radius: 8px;
+  opacity: 0.99;
+}
+.btn2 {
+  background: #fca738 0% 0% no-repeat padding-box;
+  box-shadow: 0px 16px 28px #f57f1769;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.img {
+  margin-top: 2rem;
+  background-image: url("../introduction/front-end-development.svg");
+  background-repeat: no-repeat;
+  height: 20rem;
+  width: 30rem;
+}
