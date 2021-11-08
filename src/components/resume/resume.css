@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+.container_resume1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: #105652;
+  background-color: lightgreen;
+  /* border: 5px inset #105652; */
+  margin: 2% 5%;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container_resume_inside_2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: #105652;
+  background-color: #fbf3e4;
+  /* border: 5px inset #105652; */
+  margin: 2% 5%;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  justify-content: space-around;
+  align-items: flex-start;
+  position: relative;
+}
+
+.res_head {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: underline orange;
+}
+
+.sub_heading_resume {
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.parts_res {
+  margin: 1rem;
+  margin-right: 50rem;
+}
+
+.title_res {
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+
+.year {
+  text-align: center;
+  height: 2rem;
+  width: 12rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  border: 2px solid orangered;
+  background-color: #fca738;
+  border-radius: 1rem;
+  right: 8rem;
+  position: absolute;
+}

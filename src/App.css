@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.container_app {
-  display: flex;
-  flex-direction: column;
+body {
+  margin: 5px;
+  border: 5px inset green;
 }
