@@ -3,10 +3,10 @@ import "../contact/contact.css";
 
 export default class Contact extends Component {
   state = {
-    name: "",
+    namex: "",
     number: "",
     email: "",
-    message: "",
+    msg: "",
     details: [],
   };
 
@@ -18,17 +18,17 @@ export default class Contact extends Component {
     e.preventDefault();
     const tempArray = [...this.state.details];
     tempArray.push({
-      name: this.state.name,
+      namex: this.state.namex,
       number: this.state.number,
       email: this.state.email,
-      message: this.state.message,
+      msg: this.state.msg,
     });
     this.setState({
       details: tempArray,
-      name: "",
+      namex: "",
       number: "",
       email: "",
-      message: "",
+      msg: "",
     });
   };
 
@@ -75,24 +75,20 @@ export default class Contact extends Component {
 
           <div className="connect_part2">
             <div className="form_contact">
-              <form
-                action=""
-                className="form_contact1"
-                onSubmit={this.handleSubmit}
-              >
+              <form className="form_contact1" onSubmit={this.handleSubmit}>
                 <h2 className="msg_head">
                   <span>Send me a message</span>
                 </h2>
                 <br />
 
-                <label htmlFor="namex" className="name">
+                <label htmlFor="namex" className="namex">
                   First and Last name
                 </label>
                 <br />
                 <input
                   type="text"
                   id="namex"
-                  value={this.state.name}
+                  value={this.state.namex}
                   onChange={this.handleChange}
                 />
                 <br />
@@ -128,7 +124,7 @@ export default class Contact extends Component {
                 <input
                   type="text"
                   id="msg"
-                  value={this.state.message}
+                  value={this.state.msg}
                   onChange={this.handleChange}
                 />
                 <br />
