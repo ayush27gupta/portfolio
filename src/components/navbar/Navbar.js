@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "../navbar/Navbar.css";
+import { Routes,Route } from "react-router-dom"
+import About from "../about/About";
 
 export default class Navbar extends Component {
   render() {
@@ -7,27 +9,31 @@ export default class Navbar extends Component {
       <div className="container_navbar">
         <div className="navbar">
           <div className="name">
-            <span id="name">Ayush Gupta</span>
+          <a href="#"><span id="name">Ayush Gupta</span></a>
           </div>
 
           <div className="menu">
             <ul className="menu_div" type="none">
               <li className="menu_items">
-                <a href="">Home</a>
+                <a href="#">Home</a>
               </li>
               <li className="menu_items">
-                <a href="">About</a>
+                <a href="#about">About</a>
               </li>
               <li className="menu_items">
-                <a href="">Portfolio</a>
+                <a href="#portfolio">Portfolio</a>
               </li>
               <li className="menu_items">
-                <a href="">Resume</a>
+                <a href="#resume">Resume</a>
               </li>
               <li className="menu_items">
-                <a href="">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
+
+            <Routes>
+              
+            </Routes>
           </div>
         </div>
       </div>

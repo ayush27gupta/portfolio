@@ -4,7 +4,7 @@ export default class Portfolio extends Component {
   render() {
     return (
       <div>
-        <div className="container_portfolio">
+        <div className="container_portfolio" id="portfolio">
           <div className="heading_portfolio">
             <span className="heading_port">My Portfolio</span>
             <hr className="hr_port" />

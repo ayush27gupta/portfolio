@@ -1,23 +1,17 @@
 import React, { Component } from "react";
-import About from "./components/about/About";
-import Contact from "./components/contact/Contact";
-import Intro from "./components/introduction/Intro";
-import Navbar from "./components/navbar/Navbar";
-import Portfolio from "./components/portfolio/Portfolio";
-import Resume from "./components/resume/Resume";
+
+import {BrowserRouter} from "react-router-dom"
+import Start from "./components/start/Start";
 
 export default class App extends Component {
   render() {
     return (
       <>
+      <BrowserRouter>
         <div className="container_app">
-          <Navbar />
-          <Intro />
-          <About />
-          <Portfolio />
-          <Resume />
-          <Contact />
+         <Start/>
         </div>
+        </BrowserRouter>
       </>
     );
   }

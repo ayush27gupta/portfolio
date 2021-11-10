@@ -16,7 +16,7 @@ export default class Intro extends Component {
           </div>
           <div className="btns">
             <div>
-              <button className="btn1 btn">Hire Me</button>
+            <a href="#resume"><button className="btn1 btn">Hire Me</button></a>
             </div>
             <div>
               <button className="btn2 btn">Get Resume</button>
