@@ -6,46 +6,32 @@
 
 .container_navbar {
   box-sizing: border-box;
-  /* border: 2px solid black; */
-  background-color: #fbf3e4;
+  border: 2px solid black;
+ 
   width: 100%;
   position: fixed;
 }
 
-#name {
-  color: #105652;
-  font-size: 1.8rem;
-  font-weight: 700;
-  margin-left: 9rem;
+.navbar_toggler{
+  background-color: #dddddd;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: 600;
 }
 
-.menu_div {
-  margin-top: 1rem;
-  margin-left: 25rem;
-  padding: 0rem 3rem;
+.nav-link{
+  color:black;
+}
+.nav-link:hover{
+  color:#FCA738;
 }
 
-.menu_div {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+.nav-link{
+  margin:0rem 4rem;
 }
-
-.menu_items {
-  margin: 0rem 2rem;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  color: #fca738;
+.flex_nav
+{
+  margin-left:15rem;
 }

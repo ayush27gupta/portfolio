@@ -47,42 +47,50 @@ export default class About extends Component {
                 alt="image"
                 height="50px"
                 width="50px"
+                className="image_inside"
+
               />
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
                 alt=""
                 height="50px"
                 width="50px"
+                className="image_inside"
               />
               <img
                 src="https://www.thecodecrypt.com/images/2020/01/08/js.png"
                 alt=""
                 height="50px"
                 width="50px"
+                className="image_inside"
               />
               <img
                 src="https://assets.deepsource.io/e2c2322/images/blog/git-best-practices/header-square.jpeg"
                 alt=""
                 height="50px"
                 width="50px"
+                className="image_inside"
               />
               <img
                 src="https://www.drupal.org/files/project-images/bootstrap-stack.png"
                 alt=""
                 height="50px"
                 width="50px"
+                className="image_inside"
               />
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
                 alt=""
                 height="50px"
                 width="50px"
+                className="image_inside"
               />
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF28wp6oZkObggVRDzRqkb7wNuofazdAqVuomPvQdPijSMI_bOqMoaOmJneoO5IIqxt1Q&usqp=CAU"
                 alt=""
                 height="50px"
                 width="50px"
+                className="image_inside"
               />
             </div>
           </div>

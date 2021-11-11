@@ -2,19 +2,7 @@
   box-sizing: border-box;
 }
 
-.container_resume1 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  color: #105652;
-  background-color: lightgreen;
-  /* border: 5px inset #105652; */
-  margin: 2% 5%;
-  border-radius: 1.5rem;
-  box-sizing: border-box;
-  justify-content: space-around;
-  align-items: center;
-}
+
 
 .container_resume_inside_2 {
   display: flex;
@@ -28,13 +16,17 @@
   box-sizing: border-box;
   justify-content: space-around;
   align-items: flex-start;
-  position: relative;
+
 }
 
+.head_res{
+  text-align: center;
+}
 .res_head {
   font-size: 2rem;
   font-weight: bold;
   text-decoration: underline orange;
+  text-align: center;
 }
 
 .sub_heading_resume {
@@ -67,4 +59,79 @@
   border-radius: 1rem;
   right: 8rem;
   position: absolute;
+}
+
+
+@media screen and (min-width:360px) and (max-width:767px) {
+
+* {
+  box-sizing: border-box;
+}
+
+
+.container_resume_inside_2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: #105652;
+  background-color: #fbf3e4;
+  /* border: 5px inset #105652; */
+  margin: 2% 3%;
+  border-radius: 1rem;
+  align-items: center;
+}
+
+.sub_heading_resume {
+  font-size: 1.3rem;
+  text-align: center;
+}
+.heading_inside{
+  text-align: left;
+}
+.work_ex
+{
+
+  margin-right: 2.5rem;
+  
+}
+.edu{
+  box-sizing: border-box;
+  
+ 
+}
+
+.parts_res {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  margin-right: 0rem;
+  align-items: left;
+  
+ 
+}
+
+
+.title_res {
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-around;
+ 
+}
+
+.year {
+  text-align: center;
+  height: 2rem;
+  width: 12rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  border: 2px solid orangered;
+  background-color: #fca738;
+  border-radius: 1rem;
+  right: 8rem;
+  position: static;
+}
 }

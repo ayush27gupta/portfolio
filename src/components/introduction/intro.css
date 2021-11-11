@@ -1,6 +1,6 @@
 .container_intro {
   box-sizing: border-box;
-  /* border: 5px solid rgb(248, 11, 11); */
+  
   background-color: #105652;
   display: flex;
   justify-content: space-around;
@@ -8,6 +8,10 @@
   align-items: center;
   padding: 3rem 0rem;
   padding-top: 5rem;
+  width:100vw;
+  height:70vh;
+  overflow-x: hidden;
+  
 }
 
 .intro {
@@ -69,4 +73,78 @@
   background-repeat: no-repeat;
   height: 20rem;
   width: 30rem;
+}
+
+
+@media screen and (min-width:360px) and (max-width:767px)   {
+
+ 
+
+  .container_intro { 
+    width:100vw;
+    height:auto;
+    /* border: 2px solid rgb(248, 11, 11); */
+    overflow-x: hidden;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+    padding-top: 0rem;
+  }
+  
+  .intro {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .head_txt {
+    color: #fca738;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .dev_txt {
+    color: white;
+    font-size: 2rem;
+  }
+  .sub {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .txt {
+    font-size: 1rem;
+  }
+  
+  .btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  
+  .btn {
+    margin-top: 0.5rem;
+    height: 2rem;
+    color: white;
+    font-weight: 500;
+    width: 8rem;
+    border-radius: 0.8rem;
+    margin-right: 0rem;
+    font:Inter;
+  }
+  
+
+  .img {
+    margin-top: 1rem;
+    background-image: url("../introduction/front-end-development.svg");
+    background-repeat: no-repeat;
+    height: 12rem;
+    width: 30rem;
+    margin-left:20% ;
+  }
+  
+  
 }

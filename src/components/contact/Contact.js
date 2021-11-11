@@ -36,7 +36,7 @@ export default class Contact extends Component {
     return (
       <div className="container_contact1" id="contact">
         <div>
-          <spa className="top">Contact Me</spa>
+          <span className="top">Contact Me</span>
           <hr className="hr_contact" />
         </div>
         <div className="container_contact2">

@@ -77,3 +77,77 @@ hr {
   justify-content: space-around;
   margin: 0.8rem;
 }
+
+@media screen and (min-width:360px) and (max-width:767px) 
+{
+  .container_about {
+    flex-direction: column;
+    background-color: rgb(205, 255, 205);
+    margin: 2% 3%;
+    border-radius: 1.5rem;
+    align-items: center;
+  }
+  
+  .part_about1 {
+    width: 100%;
+  }
+
+  .part_about2 {
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px solid rgb(205, 255, 205);
+    border-radius: 1.2rem;
+  }
+  
+  .image_about {
+    border: 3px inset darkgreen;
+    margin-left: 10%;
+    margin-top: 1rem;
+  }
+  
+  .about_text {
+    margin-top: 5%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .about_heading {
+    margin-left: 0rem;
+    text-align: center;
+
+  }
+  
+  hr {
+    margin-left: 0;
+    margin-right: 10rem;
+    width: 100%;
+    color: rgb(255, 123, 0);
+    border: 4px solid #fd3300;
+  }
+  
+  .para {
+    margin-left: 1rem;
+    font: normal normal normal 16px/30px Inter;
+  }
+   
+  .about_tech_txt {
+    text-align: center;
+    font: normal normal medium 14px/30px Inter;
+  }
+  
+  .about_tech_img {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 0.5rem;
+  }
+  
+
+  .image_inside
+  {
+    height:35px;
+    width:35px;
+  }
+}

@@ -90,3 +90,40 @@
 .img_proj:hover {
   width: 105%;
 }
+
+
+@media screen  and (min-width:360px) and (max-width:767px) {
+  
+
+  * {
+    box-sizing: border-box;
+  }
+  .container_portfolio {
+    
+    margin: 3% 3%;
+    border-radius: 1rem;
+    
+  }
+  
+  .heading_portfolio {
+    font-size: 2rem;
+  }
+  
+  .content_portfolio {
+    padding: 2rem;
+  }
+  
+  .project_card {
+    border-radius: 1rem;
+    height: 35vh;
+    width: 80vw;
+  }
+  
+  .hr_port {
+    width: 60%;
+    margin-left: 20%;
+  }
+  
+  
+
+}

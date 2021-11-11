@@ -2,10 +2,11 @@ import React, { Component } from "react";
 import About from "../about/About";
 import Contact from "../contact/Contact";
 import Intro from "../introduction/Intro";
-import Navbar from "../navbar/Navbar";
+
 import Portfolio from "../portfolio/Portfolio";
 import Resume from "../resume/Resume";
 import {BrowserRouter} from "react-router-dom"
+import Navbar2 from "../navbar/Navbar2";
 
 export default class Start extends Component {
   render() {
@@ -13,7 +14,8 @@ export default class Start extends Component {
       <>
 
         <div className="container_app">
-          <Navbar />
+         
+          <Navbar2/>
           <Intro />
           <About />
           <Portfolio />
