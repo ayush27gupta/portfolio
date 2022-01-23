@@ -7,31 +7,30 @@
 .container_navbar {
   box-sizing: border-box;
   border: 2px solid black;
- 
+
   width: 100%;
   position: fixed;
 }
 
-.navbar_toggler{
+.navbar_toggler {
   background-color: #dddddd;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-size: 2rem;
   font-weight: 600;
 }
 
-.nav-link{
-  color:black;
+.nav-link {
+  color: black;
 }
-.nav-link:hover{
-  color:#FCA738;
+.nav-link:hover {
+  color: #fca738;
 }
 
-.nav-link{
-  margin:0rem 4rem;
+.nav-link {
+  margin: 0rem 4rem;
 }
-.flex_nav
-{
-  margin-left:15rem;
+.flex_nav {
+  margin-left: 15rem;
 }

@@ -44,11 +44,10 @@ export default class About extends Component {
             <div className="about_tech_img">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
-                alt="image"
+                alt="no"
                 height="50px"
                 width="50px"
                 className="image_inside"
-
               />
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"

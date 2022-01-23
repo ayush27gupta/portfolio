@@ -4,7 +4,7 @@ import "../introduction/intro.css";
 export default class Intro extends Component {
   render() {
     return (
-      <div className="container_intro">
+      <div className="container_intro" id="home">
         <div className="part1">
           <div className="intro">
             <span className="head_txt">Hi, I am Ayush Gupta</span>

@@ -46,6 +46,13 @@
   border: 4px solid green;
 }
 
+.img_proj6 {
+  background: url("./images/blog.png") no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  border-radius: 1rem;
+}
 .img_proj5 {
   background: url("./images/animate.png") no-repeat;
   height: 100%;
@@ -91,39 +98,31 @@
   width: 105%;
 }
 
-
-@media screen  and (min-width:360px) and (max-width:767px) {
-  
-
+@media screen and (min-width: 360px) and (max-width: 767px) {
   * {
     box-sizing: border-box;
   }
   .container_portfolio {
-    
     margin: 3% 3%;
     border-radius: 1rem;
-    
   }
-  
+
   .heading_portfolio {
     font-size: 2rem;
   }
-  
+
   .content_portfolio {
     padding: 2rem;
   }
-  
+
   .project_card {
     border-radius: 1rem;
     height: 35vh;
     width: 80vw;
   }
-  
+
   .hr_port {
     width: 60%;
     margin-left: 20%;
   }
-  
-  
-
 }
